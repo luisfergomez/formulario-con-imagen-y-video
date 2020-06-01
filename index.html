@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA DE HTML</title>
+</head>
+<body>
+    <h3>FORMULARIOS</h3>
+<form> 
+    <p>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="escribe tu nombre..." />
+    </p>  
+    <p></p> 
+    <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p> 
+
+    <label for="descripcion">Descripción</label>
+    <textarea name="descripcion"></textarea>
+</p>
+<input type="radio" id="genero" vale="hombre">Hombre <br/>
+<input type="radio" id="genero" vale="mujer">Mujer <br/>
+<input type="radio" id="genero" vale="sin especificar">Sin especificar <br/> 
+</p>
+
+
+<select name="generos">
+    <option value="Hombre">Hombre</option>
+    <option value="Mujer">Mujer</option>
+    <option value="Sin especificar">Sin especificar</option>
+</select>
+<p>Contraseña: <input type="password" name="password" minlength="6"></p>
+<input type="submit" value="Enviar formulario" />
+<input type="submit" value="Borrar" />
+</form>
+    
+</body>
+</html>
